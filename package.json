@@ -1,0 +1,20 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "testcafe chrome test.js",
+    "mobile": "testcafe chrome --fixture-meta device=mobile test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^3.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
